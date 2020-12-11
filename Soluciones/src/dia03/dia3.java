@@ -8,7 +8,7 @@ public class dia3 {
 
 	public static void main (String [] args) {
 		File f = new File("C:\\Users\\lugud\\git\\AdventOfCode2020\\Soluciones\\src\\dia03\\input.txt");
-		int c1=0, c2=0, c3=0, c4=0, c5=0, c=0;
+		long c1=0, c2=0, c3=0, c4=0, c5=0, c=0;
 		int v1=0, v2=0, v3=0, v4=0, v5=0;
 		int linea=0;
 		
