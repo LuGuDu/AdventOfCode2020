@@ -34,11 +34,8 @@ public class dia2 {
 					}
 				}
 
-				System.out.println("Pass: " + s3 + ", Letra: " + c + ", Repetidas: " + contador + ", Min-Max: " + v1 + "-" + v2);
-
 				if (contador <= v2 && contador >= v1) {
 					validasReto1++;
-					//System.out.println("Reto 1: " + validasReto1);
 				}
 
 				if (s3.charAt(v1-1) == c) {
@@ -50,12 +47,13 @@ public class dia2 {
 				} else {
 					if (v2<=s3.length() && s3.charAt(v2-1) == c) {
 						validasReto2++;
-							System.out.println("Reto 2: " + validasReto2);
+							
 					} 
 				}
 				
 			}
-
+			System.out.println("Reto 1: " + validasReto1);
+			System.out.println("Reto 2: " + validasReto2);
 			reader.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
